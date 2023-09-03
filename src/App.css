@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.button-div{
+  display: flex;
+  gap: 5px;
+}
+
+.button-edit{
+  background:#ffc019;  
+}
+
+.spin {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 60px 100px;
+  text-align: center;
+  background: #242424;
+  border-radius: 4px;
+}
+
+.div-searcher{
+  display: flex;  
+  margin-bottom: 15px;  
+  margin-left: 120px;
+}
+
+.div-searcher .searcher__title{
+  height: 50px;
+  width: 43%;
+  margin-right: 15px;
+}
+
+.div-searcher .searcher__body{
+  width: 100%;
+  margin-right: 15%;
+}
+
+.read-the-docs {
+  color: #888;
+}
